@@ -1,6 +1,105 @@
-:root {
+body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+.container {
+  max-width: 550px;
+  margin: 20px auto;
+  background-color: white;
+}
+.header {
+  height: 60px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+
+.earth-americas {
+  margin-right: 7px;
+}
+.header-text {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.card-product {
+  display: flex;
+  padding: 20px 40px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #F5F5F5, transparent);
+  margin: 0;
+}
+
+.card-product:last-child {
+  border-bottom: none;
+}
+.card-image {
+  max-width: 128px;
+  max-height: 168px;
+  border-radius: 5px;
+}
+
+.card-location {
+  font-size: 10px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.location-dot {
+  margin-right: 5px;
+  color: #F55A5A;
+}
+
+.location {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-right: 2px;
+  font-weight: 300;
+
+}
+
+.link {
+  color: #918E9B;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 25px;
+}
+
+.card-date {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+
+.card-product-infos {
+  text-align: left;
+  padding-left: 30px;
+  max-width: 320px;
 
 }
